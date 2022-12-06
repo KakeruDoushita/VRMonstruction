@@ -1,0 +1,56 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &3403558356579785529
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 3403558356579785543}
+  - component: {fileID: 3403558356579785542}
+  m_Layer: 0
+  m_Name: Doushita_ObjectPool
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &3403558356579785543
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3403558356579785529}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 50, y: 100, z: -200}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &3403558356579785542
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3403558356579785529}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ffa56f04705f4e2488b4056ad8f5fd73, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Bullet: {fileID: 3102865716538201205, guid: 4b5f5e76456b3f847824481f998697fc, type: 3}
+  AttackHeri: {fileID: 3588675364591869685, guid: f8ee727dfc2f05b4a83aa80a7c30a4e0, type: 3}
+  missle: {fileID: 6066206238840648558, guid: ceb2b8fdf5d7f5242896b937a7174d85, type: 3}
+  Otomo: {fileID: 0}
+  AttackPoot: {fileID: 879953549069217228, guid: 71a58e50ca3a3294980fb3e5adb9dfc9, type: 3}
+  misslepoot: {fileID: 1705585217191132457, guid: 810f1481baac768499b5236be0b54517, type: 3}
+  bulletReSpwonMax: 10
+  heriReSpwonMax: 3
+  missleSpwonMax: 3
+  constRotate: {fileID: 3607288572783233726, guid: 42db3d6bca09b28469d15fef23598830, type: 3}
